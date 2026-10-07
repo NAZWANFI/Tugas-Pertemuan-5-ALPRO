@@ -1,0 +1,13 @@
+1. Program pada Tugas 4 tetap bisa dikompilasi karena sintaks programnya benar menurut aturan bahasa C. 
+Kesalahannya adalah kesalahan logika karena kondisi nilai > 50 diletakkan sebelum nilai > 70, 
+sehingga kondisi kedua tidak pernah tercapai untuk nilai di atas 70. 
+
+2. Nested if sebaiknya digunakan ketika pemeriksaan kondisi kedua bergantung pada terpenuhinya kondisi pertama. 
+Operator && lebih sesuai jika beberapa syarat harus terpenuhi secara bersamaan dalam satu kondisi.
+
+3. Operator || dapat digunakan pada sistem proteksi kelistrikan untuk mengaktifkan alarm jika tegangan
+ terlalu tinggi atau suhu alat terlalu tinggi. Alarm akan aktif apabila salah satu kondisi tersebut terjadi.
+
+4. Kebiasaan membedakan == dan = penting karena keduanya memiliki fungsi berbeda dalam bahasa C. Operator = digunakan 
+untuk memberikan nilai kepada variabel, sedangkan == digunakan untuk membandingkan dua nilai. Kesalahan menggunakan = saat 
+melakukan perbandingan dapat menyebabkan logika program menjadi salah.
